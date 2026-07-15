@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aadhrit's Game Hub</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#0f172a,#1e3a8a,#0ea5e9);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.container{
+    width:90%;
+    max-width:900px;
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:40px;
+    text-align:center;
+    color:white;
+    box-shadow:0 10px 30px rgba(0,0,0,.3);
+}
+
+h1{
+    margin-bottom:10px;
+    font-size:2.5rem;
+}
+
+p{
+    margin-bottom:30px;
+    color:#ddd;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    color:#222;
+    text-decoration:none;
+    border-radius:15px;
+    padding:25px;
+    transition:.3s;
+    box-shadow:0 8px 20px rgba(0,0,0,.15);
+}
+
+.card:hover{
+    transform:translateY(-8px) scale(1.03);
+    background:#2563eb;
+    color:white;
+}
+
+.icon{
+    font-size:45px;
+    margin-bottom:10px;
+}
+
+footer{
+    margin-top:30px;
+    color:#ddd;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+<h1>🎮 Aadhrit's Game Hub</h1>
+<p>Select a game or quiz to play.</p>
+
+<div class="grid">
+
+<a class="card" href="https://kiandhrit.github.io/zombie-shooter/" target="_blank">
+<div class="icon">🧟</div>
+<h2>Zombie Shooter</h2>
+</a>
+
+<a class="card" href="https://kiandhrit.github.io/cricket-quize/" target="_blank">
+<div class="icon">🏏</div>
+<h2>Cricket Quiz</h2>
+</a>
+
+<a class="card" href="https://kiandhrit.github.io/underwater-land-and-sea-animals/" target="_blank">
+<div class="icon">🐠</div>
+<h2>Animals Game</h2>
+</a>
+
+<a class="card" href="https://kiandhrit.github.io/poke-mon-game/" target="_blank">
+<div class="icon">⚡</div>
+<h2>Pokémon Game</h2>
+</a>
+
+<a class="card" href="https://kiandhrit.github.io/FIFA-World-Cup-Quize/" target="_blank">
+<div class="icon">⚽</div>
+<h2>FIFA World Cup Quiz</h2>
+</a>
+
+</div>
+
+<footer>
+Made with ❤️ by Aadhrit
+</footer>
+
+</div>
+
+</body>
+</html>
